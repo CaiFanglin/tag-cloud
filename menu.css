@@ -1,0 +1,428 @@
+body {
+  background: #cccccc;
+  font-family: 'microsoft yahei',Arial,sans-serif;
+}
+.cvheader{
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    border-bottom: 1px solid #bfbfbf;
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+.cvheader .baseInfo{
+  text-align: center;
+  width: 100%;
+  margin: 10px auto;
+}
+#baseInfo .position{
+  display: inline-block;
+  margin-left: 25px;
+  font-size: 23px;
+  font-family: sans-serif;
+}
+.baseInfo .talk .tel,#github{
+  display:inline-block;
+  margin-left:25px;
+}
+.clearfix:after,.clearfix:before{
+  display:table;
+  content:"";
+  clear:both;
+}
+.clearfix:after{
+  *zoom:1;
+}
+.cvbody{
+  padding:10px;
+}
+.cvbody .row{
+  width:98%;
+  height:auto;
+  margin:0 auto;
+}
+.cvbody .fbox{
+  float:left;
+  width:520px;
+  height:750px;
+  margin:10px;
+  border-radius:10px;
+  box-shadow: 3px 3px 2px #444,-1px -1px 2px #555;
+}
+.cvbody .sibox{
+  position: absolute;
+  width:520px;
+  height: auto;
+  margin:10px;
+  border-radius:10px;
+  box-shadow: 3px 3px 2px #444,-1px -1px 2px #555;
+  margin-top: 770px;
+}
+.cvbody .fbox h3{
+  padding-left: 20px;
+  padding-top: 10px;
+  letter-spacing:5px;
+}
+.cvbody .fbox .flex{
+  display:flex;
+  padding:0 10px 10px 10px;
+  justify-content: space-around;
+  align-items:stretch;
+}
+.cvbody .fbox .flex .rep1,.cvbody .fbox .flex .rep2,.cvbody .fbox .flex .rep3,.cvbody .fbox .flex .rep4{
+  padding:5px;
+}
+.cvbody .fbox .flex .rep1,.cvbody .fbox .flex .rep2{
+  border-bottom:none;
+}
+.cvbody .fbox .flex .rep1,.cvbody .fbox .flex .rep3{
+  border-right:none;
+}
+.cvbody .fbox .flex .rep1{
+  width:48%;
+  border-top-left-radius: 10px;
+  background:  rgba(0,0,0,0.3);
+}
+.cvbody .fbox .flex .rep2{
+  width:50%;
+  border-top-right-radius: 10px;
+  background:  rgba(0,0,0,0.2);
+}
+.cvbody .fbox .flex .rep3{
+  width:48%;
+  border-bottom-left-radius: 10px;
+  background:  rgba(0,0,0,0.15);
+}
+.cvbody .fbox .flex .rep4{
+  width:50%;
+  border-bottom-right-radius: 10px;
+  background:  rgba(0,0,0,0.1);
+}
+.cvbody .fbox .flex .rep1:hover{
+  border-radius:50px;
+  background:  rgba(0,0,0,0.1);
+}
+.cvbody .fbox .flex .rep2:hover{
+  border-radius:50px;
+  background:  rgba(0,0,0,0.15);
+}
+.cvbody .fbox .flex .rep3:hover{
+  border-radius:50px;
+  background:  rgba(0,0,0,0.2);
+}
+.cvbody .fbox .flex .rep4:hover{
+  border-radius:50px;
+  background:  rgba(0,0,0,0.3);
+}
+.rep34{
+  margin-top:-10px;
+}
+.cvbody .fbox .flex .repTime{
+  padding: 3px;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 3px #333;
+  font-weight: bolder;
+  font-size:20px;
+  padding-bottom: 10px;
+}
+.cvbody .fbox .flex .repName{
+  font-size: 18px;
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+.cvbody .fbox .flex .repDscrp{
+  font-size: 15px;
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+.cvbody .fbox .flex #htm{
+  background: rgba(100,250,50,0.3);
+}
+
+progress[value] {   
+  /* Reset the default appearance */  
+  -webkit-appearance: none;   
+     -moz-appearance: none;   
+/*          appearance: none;  */ 
+     
+  /* Get rid of default border in Firefox. */  
+  border: none;   
+     
+  /* Dimensions */  
+  width: 200px;   
+  height: 10px;
+
+  color: blue;/*IE10*/
+}
+.repDescrp #htm1{
+  width: 230px;
+}
+.repDescrp #css21{
+  width:150px;
+}
+.repDescrp #ES51{
+  width:110px;
+}
+.repDescrp #jQueryMobile1{
+  width:50px;
+}
+.repDescrp #java1{
+  width:100px;
+}
+.repDscrp #anylogic2{
+  width: 210px;
+}
+.repDscrp #java2{
+  width: 170px;
+}
+.repDscrp #css34{
+  width: 160px;
+}
+.repDscrp #extjs4,.repDscrp #jquery3,.repDscrp #svn3{
+  width:200px;
+}
+.repDscrp #html53{
+  width:220px;
+}
+.repDscrp #css33{
+  width: 210px;
+}
+.repDscrp #java3{
+  width: 180px;
+}
+.repDscrp #server4,.repDscrp #c4,.repDscrp #vs4,.repDscrp #vss4,.repDscrp #iis4,.repDscrp #tomcat3,.repDscrp #mysql3,.repDscrp #eclipse3{
+  width: 180px;
+}
+progress[value]::-webkit-progress-bar {   
+  background-color: #eee;   
+  border-radius: 2px;   
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;   
+}    
+progress[value]::-webkit-progress-value {   
+  background-image:   
+       -webkit-linear-gradient(-45deg,    
+                               transparent 33%, rgba(0, 0, 0, .1) 33%,    
+                               rgba(0,0, 0, .1) 66%, transparent 66%),   
+       -webkit-linear-gradient(top,    
+                               rgba(255, 255, 255, .25),    
+                               rgba(0, 0, 0, .25)),   
+       -webkit-linear-gradient(left, #09c, #f44);   
+  
+    border-radius: 2px;    
+    background-size: 35px 20px, 100% 100%, 100% 100%;   
+}  
+progress[value]::-webkit-progress-value::before {   
+  content: "80%";   
+  position: absolute;   
+  right: 0;   
+  top: -125%;   
+}   
+  
+progress[value]::-webkit-progress-value::after {   
+  content:"";   
+  width: 6px;   
+  height: 6px;   
+  position: absolute;   
+  border-radius: 100%;   
+  right: 7px;   
+  top: 7px;   
+  background-color: white;   
+} 
+progress[value]::-moz-progress-bar {    
+  background-image:   
+    -moz-linear-gradient(   
+      135deg,    
+      transparent 33%,    
+      rgba(0, 0, 0, 0.1) 33%,    
+      rgba(0, 0, 0, 0.1) 66%,    
+      transparent 66%    
+    ),   
+    -moz-linear-gradient(   
+      top,    
+      rgba(255, 255, 255, 0.25),    
+      rgba(0, 0, 0, 0.25)   
+    ),   
+    -moz-linear-gradient(   
+      left,    
+      #09c,    
+      #f44  
+    );   
+  
+  border-radius: 2px;    
+  background-size: 35px 20px, 100% 100%, 100% 100%;    
+}  
+.h5{
+  margin:0;
+  padding:0;
+} 
+.green{
+  background: rgba(150,200,170,0.6);
+}
+.cvbody .sbox{
+  position:absolute;
+  width:703px;
+  height:320px;
+  margin:10px;
+  border-radius:10px;
+  box-shadow: 3px 3px 2px #444,-1px -1px 2px #555;
+  margin-left:540px;
+  padding:10px;
+}
+.cvbody .tbox{
+  position:absolute;
+  width:703px;
+  height:120px;
+  margin:10px;
+  border-radius:10px;
+  box-shadow: 3px 3px 2px #444,-1px -1px 2px #555;
+  margin-left:540px;
+  padding:10px;
+  margin-top:360px;
+}
+.cvbody .fobox{
+  position:absolute;
+  width:703px;
+  height:180px;
+  margin:10px;
+  border-radius:10px;
+  box-shadow: 3px 3px 2px #444,-1px -1px 2px #555;
+  margin-left:540px;
+  padding:10px;
+  margin-top:510px;
+}
+.cvbody .fibox{
+  position:absolute;
+  width:703px;
+  height:250px;
+  margin:10px;
+  border-radius:10px;
+  box-shadow: 3px 3px 2px #444,-1px -1px 2px #555;
+  margin-left:540px;
+  padding:10px;
+  margin-top:720px;
+}
+.sbox #cloud{
+  width:560px;
+  height:200px;
+  position:relative;
+  margin-top: 20px;
+}
+.sbox #cloud a{
+  text-decoration:none;
+}
+h3{
+  padding:0;
+  margin-top:15px;
+  margin-bottom:5px;
+}
+.red{
+  color:#f92a39;
+}
+.tbox .college{
+  margin-left:2rem;
+}
+.tbox > #college{
+  margin-top: 10px;
+  margin-bottom:15px;
+}
+.fobox .col{
+  border:1px solid #ccc;
+  width:680px;
+  height:auto;
+  padding:5px;
+  margin:5px;
+}
+.fobox .col1{
+  margin-top:20px;
+  border-bottom:0;
+  margin-bottom:-5px;
+}
+.fobox .col .col_item{
+  display: inline-block;
+  width:75px;
+  border-right:1px solid #ccc;
+  padding:2px;
+  text-align: center;
+}
+.fobox .col .col_item:first-child{
+  font-weight: bolder;
+}
+.fobox .col .col_item:nth-child(-n+4):not(:first-child){
+  color:#f32e3a;
+}
+.fobox .col .col_item:last-child{
+  border-right:0;
+}
+.fobox .col .col1_item,.fobox .col .col2_item{
+  height:inherit;
+}
+.fibox .social{
+  width:60px;
+  height:60px;
+  float:left;
+  margin-right:10px;
+}
+.fibox .depart{
+  float:left;
+  width:300px;
+}
+.fibox .teacher{
+  position: absolute;
+  margin-left:360px;
+  width:300px;
+}
+.fibox .h5{
+  font-size:17px;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+}
+.fibox .social-item{
+  display: table-row;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+}
+.fibox .social-item:before{
+  content:"·";
+}
+.sibox h3{
+  padding:10px;
+  padding-bottom: 0px;
+}
+.sibox .canvas{
+  width:400px;
+  height:auto;
+  margin:0 auto;
+  display: flex;
+  justify-content: center;
+}
+#en{
+  margin-right: 50px;
+}
+#label #japa{
+  width:130px;
+  margin-right:100px;
+}
+#label{
+  padding:5px;
+}
+.footer{
+  width:96%;
+  height:40px;
+  background: rgba(140,220,180,0.8);
+  position:absolute;
+  margin-left: 20px;
+  margin-top:250px; 
+  text-align:center;
+  padding:10px;
+  border-radius: 10px;
+  box-shadow: 0 0 50px rgba(0,0,0,0.4) inset,0 0 10px rgba(0,0,0,0.5);
+}
+.footer .weibo:before{
+  content:"♥";
+  color: #f92a39;
+}
+.footer .href a{
+  text-decoration:none;
+  color:rgba(0,0,0,0.6);
+  letter-spacing: 1px;
+}
